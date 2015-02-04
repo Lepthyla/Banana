@@ -9,6 +9,14 @@ border-style: solid;
 }
 .img1 {
 box-shadow: 0px 0px 40px grey;
+width:25%
+}
+.img1:hover {
+  width:30%;
+  transition: 500ms width ease, 3s background-color;
+  background-color:yellow
+  box-shadow: 0px 0px 60px grey;
+
 }
 p {
 text-align:center;
@@ -39,4 +47,16 @@ margin:0px 45px;
 padding: 40px 0;
 float:left;
 
+}
+#sommaire {
+  position:fixed;
+                top:30px;
+                left:-180px;
+                width:200px;
+                box-shadow: 0 0 10px;
+                background-color:yellow;
+                transition: 1s left ease;
+}
+#sommaire:hover {
+  left:0px;
 }
