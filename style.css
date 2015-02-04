@@ -55,8 +55,32 @@ float:left;
                 width:200px;
                 box-shadow: 0 0 10px;
                 background-color:yellow;
-                transition: 1s left ease;
+                transition: 700ms left ease;
 }
 #sommaire:hover {
+  left:0px;
+}
+#reseausocial {
+  position:fixed;
+  top:15px;
+  left:1370px;
+  width:200px;
+  box-shadow: 0 0 10px;
+  background-color:#58D3F7;
+  transition: 800ms left ease;
+}
+#reseausocial:hover {
+  left:1230px
+}
+#contact {
+  position:fixed;
+                top:180px;
+                left:-180px;
+                width:200px;
+                box-shadow: 0 0 10px;
+                background-color:green;
+                transition: 800ms left ease;
+}
+#contact:hover {
   left:0px;
 }
